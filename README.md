@@ -17,7 +17,7 @@ contient le code pour récupérer n fiches d'oeuvres d'art aléatoirement, de ga
 ```bash
 ├── jupyter_notebook
 │   ├── project.ipynb           <--- Fichier notebook jupyter comportant tout le code
-│   └── data                    <--- Dossier comportant tous les fichiers générés (fichier csv,base sqlite3)
+│   └── data                    <--- Dossier comportant les données générées (fichier csv,base sqlite3)
 ├── summary_report              <--- Dossier comportant le rapport 
 │   └── ....
 └── README.md                   <--- Présentation du projet
