@@ -12,6 +12,8 @@ pas d'authentification. La documentation de l'API se trouve a l'adresse https://
 Extraire l'integralite de la base n'etait pas envisageable dans le cadre du projet. Le notebook  .\jupyter_notebook\project.ipynb
 contient le code pour recuperer n fiches d'oeuvres d'art aleatoirement, de garder des "features" interressantes et d'en consolider d'autres a partir de certaines donnees textuelles.
 
+On sauvegarde le dataframe obtenue dans une base SQLite3.
+
 Le pipeline complet est executable a partir du notebook jupyter
 
 ## Arborescence
