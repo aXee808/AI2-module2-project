@@ -7,18 +7,21 @@ Travail attendu :
 - Visualisation finale 
 
 Le choix pour le projet s'est porté sur l'api du Art Institute Of Chicago car l'API ne requiert
-pas d'authentification. La documentation de l'API se trouve à l'adresse https://api.artic.edu/docs/#iiif-image-api.
+pas d'authentification. La documentation de l'API se trouve a l'adresse https://api.artic.edu/docs/.
 
-Extraire l'intégralité de la base n'était pas envisageable dans le cadre du projet. Le notebook  .\jupyter_notebook\project.ipynb
-contient le code pour récupérer n fiches d'oeuvres d'art aléatoirement, de garder des "features" interressantes et d'en consolider d'autres à partir de certaines données textuelles.
+Extraire l'integralite de la base n'etait pas envisageable dans le cadre du projet. Le notebook  .\jupyter_notebook\project.ipynb
+contient le code pour recuperer n fiches d'oeuvres d'art aleatoirement, de garder des "features" interressantes et d'en consolider d'autres a partir de certaines donnees textuelles.
+
+Le pipeline complet est executable a partir du notebook jupyter
 
 ## Arborescence
 
 ```bash
 ├── jupyter_notebook
-│   ├── project.ipynb           <--- Fichier notebook jupyter comportant tout le code
-│   └── data                    <--- Dossier comportant les données générées (fichier csv,base sqlite3)
-├── summary_report              <--- Dossier comportant le rapport 
-│   └── ....
-└── README.md                   <--- Présentation du projet
+│   ├── project.ipynb               <--- Fichier notebook jupyter comportant tout le code
+│   ├── data_in                     <--- Dossier comportant countries.csv (utilé pour la transformation)
+│   └── data_out                    <--- Dossier comportant les données générées (fichier csv,base sqlite3)
+├── summary_report                  <--- Dossier comportant le rapport 
+│   └── rapport_projet_module2.pdf  <--- Rapport de projet
+└── README.md                       <--- Présentation courte du projet
 ```
